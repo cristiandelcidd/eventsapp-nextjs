@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import AddressIcon from '../icons/AddressIcon';
 import ArrowRight from '../icons/ArrowRight';
 import CalendarIcon from '../icons/CalendarIcon';
 import Button from '../ui/Button';
 
-import classes from './EventItem.module.css';
+import classes from './event-item.module.css';
 
 const EventItem = ({ event }) => {
    const { id, title, image, date, location } = event;
@@ -21,7 +20,7 @@ const EventItem = ({ event }) => {
 
    return (
       <li className={classes.item}>
-         <img src={image} alt={title} width="150px" />
+         <img src={image} alt={title} />
          <div className={classes.content}>
             <div className={classes.summary}>
                <h2>{title}</h2>

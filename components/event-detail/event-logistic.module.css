@@ -1,0 +1,42 @@
+.logistic {
+   align-items: center;
+   background: #333;
+   border-radius: 5px;
+   display: flex;
+   gap: 20px;
+   width: 80%;
+   margin: auto;
+   max-width: 550px;
+   padding: 20px;
+   position: absolute;
+   top: 32%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.image img {
+   border: 3px solid #fff;
+   border-radius: 50%;
+   height: 200px;
+   object-fit: cover;
+   width: 200px;
+}
+
+.date {
+   margin-bottom: 10px;
+}
+
+.date,
+.address {
+   display: flex;
+   font-size: 16px;
+   color: #2c8d8d;
+   font-weight: bold;
+}
+
+.date svg,
+.address svg {
+   width: 25px;
+   color: #008080;
+   margin-right: 10px;
+}

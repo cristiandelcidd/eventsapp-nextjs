@@ -5,13 +5,12 @@
    flex-direction: column;
    margin: 1rem;
    overflow: hidden;
-   gap: 1rem;
 }
 
 .item img {
-   width: 100%;
-   object-fit: cover;
    height: 10rem;
+   object-fit: cover;
+   width: 100%;
 }
 
 .content {
@@ -87,7 +86,7 @@
 
    .content {
       width: 60%;
-      padding: 0;
+      padding: 0 1rem;
       text-align: left;
    }
 

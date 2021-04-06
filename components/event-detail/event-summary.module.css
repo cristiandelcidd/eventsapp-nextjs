@@ -1,0 +1,13 @@
+.summary {
+   background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+   font-size: 30px;
+   text-align: center;
+   position: relative;
+}
+
+.summary h1 {
+   color: #fff;
+   font-weight: 100;
+   margin: 0;
+   padding: 20px 0 60px;
+}
