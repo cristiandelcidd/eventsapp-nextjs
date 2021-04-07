@@ -24,3 +24,8 @@ li {
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
 }
+
+.center {
+   margin: auto;
+   text-align: center;
+}
