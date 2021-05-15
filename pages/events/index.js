@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 import EventList from '../../components/events/EventList';
 import EventsSearch from '../../components/events/EventsSearch';
@@ -13,10 +14,17 @@ function AllEventsPage(props) {
       router.push(fullPath);
    };
    return (
-      <div>
+      <>
+         <Head>
+            <title>All Events</title>
+            <meta
+               name="description"
+               content="Find a lot of great events in your country"
+            />
+         </Head>
          <EventsSearch onSearch={findEventsHandler} />
          <EventList items={events} />
-      </div>
+      </>
    );
 }
 
